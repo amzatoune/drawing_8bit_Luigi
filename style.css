@@ -1,0 +1,331 @@
+body {
+  background: #e77c09;
+}
+.borderline{
+  outline-style: dotted;
+}
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
+  max-height: 500px;
+  max-width: 500px;
+  background: none;
+}
+
+.hat1 {
+  position: absolute;
+  width: 31.25%;
+  height: 6.5%;
+  background: #ffffff;
+  left: 31.25%;
+}
+
+.hat2 {
+  position: absolute;
+  width: 56.25%;
+  height: 6.25%;
+  background: #ffffff;
+  left: 25%;
+  top: 6.25%;
+}
+
+.head1 {
+  position: absolute;
+  width: 43.75%;
+  height: 6.5%;
+  background: #FDC183;
+  top: 12.5%;
+  left: 25%;
+}
+
+.head2 {
+  position: absolute;
+  width: 62.5%;
+  height: 6.5%;
+  background: #FDC183;
+  top: 18.75%;
+  left: 18.75%;
+}
+
+.head3 {
+  position: absolute;
+  width: 68.75%;
+  height: 6.5%;
+  background: #FDC183;
+  top: 25%;
+  left: 18.75%;
+}
+
+.head4 {
+  position: absolute;
+  width: 56.25%;
+  height: 6.5%;
+  background: #FDC183;
+  top: 31.25%;
+  left: 25%;
+}
+
+.head5 {
+  position: absolute;
+  width: 37.5%;
+  height: 6.25%;
+  background: #FDC183;
+  top: 37.5%;
+  left: 31.25%;
+}
+
+.hair1 {
+  position: absolute;
+  width: 18.75%;
+  height: 6.25%;
+  background: #00AD31;
+  top: 12.5%;
+  left: 25%;
+}
+
+.hair2 {
+  position: absolute;
+  width: 6.25%;
+  height: 18.75%;
+  background: #00AD31;
+  top: 12.5%;
+  left: 31.25%;
+}
+
+.hair3 {
+  position: absolute;
+  width: 6.25%;
+  height: 12.5%;
+  background: #00AD31;
+  top: 18.75%;
+  left: 18.75%;
+}
+
+.hair4 {
+  position: absolute;
+  width: 6.25%;
+  height: 6.25%;
+  background: #00AD31;
+  top: 31.25%;
+  left: 25%;
+}
+
+.hair5 {
+  position: absolute;
+  width: 6.55%;
+  height: 6.25%;
+  background: #00AD31;
+  top: 25%;
+  left: 37.25%;
+}
+
+.eye {
+  position: absolute;
+  width: 6.25%;
+  height: 12.5%;
+  background: #00AD31;
+  top: 12.5%;
+  left: 56.25%;
+}
+
+.stache1 {
+  position: absolute;
+  width: 6.25%;
+  height: 12%;
+  background: #00AD31;
+  top: 25%;
+  left: 62.5%;
+}
+
+.stache2 {
+  position: absolute;
+  width: 25%;
+  height: 6.25%;
+  background: #00AD31;
+  top: 31.25%;
+  left: 56.25%;
+}
+
+.shirt1 {
+  position: absolute;
+  width: 50%;
+  height: 6.5%;
+  background: #00AD31;
+  top: 43.75%;
+  left: 25%;
+}
+
+.shirt2 {
+  position: absolute;
+  width: 62.5%;
+  height: 6.5%;
+  background: #00AD31;
+  top: 50%;
+  left: 18.75%;
+}
+
+.shirt3 {
+  position: absolute;
+  width: 75%;
+  height: 6.5%;
+  background: #00AD31;
+  top: 56.25%;
+  left: 12.5%;
+}
+
+.hand1 {
+  position: absolute;
+  width: 75%;
+  height: 6.5%;
+  background: #FDC183;
+  top: 62.5%;
+  left: 12.5%;
+}
+
+.hand2 {
+  position: absolute;
+  width: 75%;
+  height: 6.5%;
+  background: #FDC183;
+  top: 68.75%;
+  left: 12.5%;
+}
+
+.hand3 {
+  position: absolute;
+  width: 75%;
+  height: 6.25%;
+  background: #FDC183;
+  top: 75%;
+  left: 12.5%;
+}
+
+.shirt4 {
+  position: absolute;
+  width: 50%;
+  height: 6.5%;
+  background: #00AD31;
+  top: 62.25%;
+  left: 25%;
+}
+
+.over1 {
+  position: absolute;
+  width: 25%;
+  height: 19%;
+  background: #ffffff;
+  top: 43.75%;
+  left: 37.5%;
+}
+
+.over2 {
+  position: absolute;
+  width: 37.5%;
+  height: 18.75%;
+  background: #ffffff;
+  top: 62.5%;
+  left: 31.25%;
+}
+
+.over3 {
+  position: absolute;
+  width: 18.75%;
+  height: 12.5%;
+  background: #ffffff;
+  top: 75%;
+  left: 25%;
+}
+
+.over4 {
+  position: absolute;
+  width: 18.75%;
+  height: 12.5%;
+  background: #ffffff;
+  top: 75%;
+  right: 25%;
+}
+
+.shirtFix {
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  background: #00AD31;
+  top: 43.75%;
+  left: 43.75%;
+}
+
+.boot1 {
+  position: absolute;
+  width: 62.5%;
+  height: 6.5%;
+  background: #00AD31;
+  top: 87.5%;
+  left: 18.75%;
+}
+
+.boot2 {
+  position: absolute;
+  width: 75%;
+  height: 6.25%;
+  background: #00AD31;
+  top: 93.75%;
+  left: 12.5%;
+}
+
+.bootFix {
+  position: absolute;
+  width: 25%;
+  height: 12.5%;
+  background: #e77c09;
+  top: 87.5%;
+  left: 37.5%;
+}
+
+.bootFix2 {
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  background: #e77c09;
+  top: 81.25%;
+  left: 43.75%;
+}
+
+.button1 {
+  position: absolute;
+  width: 6.25%;
+  height: 6.25%;
+  background: #FDC183;
+  top: 62.5%;
+  left: 37.5%;
+}
+
+.button2 {
+  position: absolute;
+  width: 6.25%;
+  height: 6.25%;
+  background: #FDC183;
+  top: 62.5%;
+  right: 37.5%;
+}
+
+@media all and (max-width: 400px) {
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media all and (max-width: 300px) {
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media all and (max-width: 200px) {
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+}
